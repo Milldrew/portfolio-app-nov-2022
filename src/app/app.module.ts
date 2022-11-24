@@ -1,3 +1,4 @@
+import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -8,7 +9,12 @@ import { CardComponent } from './core/components/card/card.component';
 
 @NgModule({
   declarations: [AppComponent, CardComponent],
-  imports: [MatCardModule, BrowserModule, BrowserAnimationsModule],
+  imports: [
+    MatButtonModule,
+    MatCardModule,
+    BrowserModule,
+    BrowserAnimationsModule,
+  ],
   providers: [],
   bootstrap: [AppComponent],
 })

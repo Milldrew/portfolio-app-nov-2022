@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: '.milldrew-card',
+  selector: 'milldrew-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.scss'],
 })
