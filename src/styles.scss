@@ -11,9 +11,9 @@
 // Define the palettes for your theme using the Material Design palettes available in palette.scss
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue. Available color palettes: https://material.io/design/color/
-$portfolio-app-nov-2022-primary: mat.define-palette(mat.$indigo-palette);
+$portfolio-app-nov-2022-primary: mat.define-palette(mat.$light-blue-palette);
 $portfolio-app-nov-2022-accent: mat.define-palette(
-  mat.$pink-palette,
+  mat.$cyan-palette,
   A200,
   A100,
   A400
